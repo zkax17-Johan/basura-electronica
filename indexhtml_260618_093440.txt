@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gestión y Reutilización de Basura Electrónica</title>
+<style>
+/* Diseño Profesional y Limpio */
+:root {
+--primary: #1a365d;
+--secondary: #2b6cb0;
+--text-main: #2d3748;
+--text-light: #718096;
+--bg-light: #f7fafc;
+--accent: #319795;
+--border: #e2e8f0;
+}
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+line-height: 1.6;
+color: var(--text-main);
+background-color: #ffffff;
+}
+
+header {
+background-color: var(--primary);
+color: #ffffff;
+padding: 2.5rem 1rem;
+text-align: center;
+}
+
+header h1 {
+font-size: 2.25rem;
+font-weight: 700;
+margin-bottom: 0.5rem;
+}
+
+header p {
+color: #e2e8f0;
+font-size: 1.1rem;
+max-width: 600px;
+margin: 0 auto;
+}
+
+nav {
+background-color: var(--bg-light);
+border-bottom: 1px solid var(--border);
+position: sticky;
+top: 0;
+z-index: 100;
+}
+
+nav ul {
+display: flex;
+justify-content: center;
+list-style: none;
+max-width: 1000px;
+margin: 0 auto;
+padding: 0.75rem;
+flex-wrap: wrap;
+}
+
+nav a {
+color: var(--secondary);
+text-decoration: none;
+padding: 0.5rem 1rem;
+font-weight: 500;
+font-size: 0.95rem;
+transition: color 0.2s;
+}
+
+nav a:hover {
+color: var(--primary);
+}
+
+main {
+max-width: 900px;
+margin: 2rem auto;
+padding: 0 1.5rem;
+}
+
+section {
+margin-bottom: 3.5rem;
+scroll-margin-top: 5rem; /* Evita que el menú tape el título al hacer clic */
+}
+
+h2 {
+color: var(--primary);
+font-size: 1.75rem;
+border-bottom: 2px solid var(--secondary);
+padding-bottom: 0.5rem;
+margin-bottom: 1.25rem;
+}
+
+p {
+margin-bottom: 1rem;
+text-align: justify;
+}
+
+ul, ol {
+margin-bottom: 1.5rem;
+padding-left: 1.5rem;
+}
+
+li {
+margin-bottom: 0.5rem;
+}
+
+.highlight-box {
+background-color: var(--bg-light);
+border-left: 4px solid var(--accent);
+padding: 1.25rem;
+margin: 1.5rem 0;
+border-radius: 0 4px 4px 0;
+}
+
+.step-list {
+list-style: none;
+padding-left: 0;
+}
+
+.step-item {
+background: var(--bg-light);
+border: 1px solid var(--border);
+border-radius: 6px;
+padding: 1.25rem;
+margin-bottom: 1rem;
+}
+
+.step-num {
+display: inline-block;
+background-color: var(--secondary);
+color: white;
+font-weight: bold;
+padding: 0.2rem 0.6rem;
+border-radius: 4px;
+margin-bottom: 0.5rem;
+font-size: 0.85rem;
+}
+
+footer {
+background-color: var(--bg-light);
+border-top: 1px solid var(--border);
+text-align: center;
+padding: 1.5rem;
+color: var(--text-light);
+font-size: 0.875rem;
+}
+
+@media (max-width: 600px) {
+header h1 { font-size: 1.75rem; }
+nav ul { flex-direction: column; align-items: center; }
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Gestión Tecnológica Sustentable</h1>
+<p>Análisis conceptual, importancia de la reutilización y procesos de transformación de los residuos electrónicos.</p>
+</header>
+
+<nav>
+<ul>
+<li><a href="#definicion">1. Definición</a></li>
+<li><a href="#caracteristicas">2. Características</a></li>
+<li><a href="#importancia">3. Importancia</a></li>
+<li><a href="#proceso">4. Proceso de Elaboración</a></li>
+</ul>
+</nav>
+
+<main>
+<section id="definicion">
+<h2>1. ¿Qué es la basura electrónica (e-waste)?</h2>
+<p>La <strong>basura electrónica</strong> o <em>e-waste</em> se refiere a todos aquellos componentes, aparatos eléctricos o electrónicos que han sido desechados, descartados o retirados de la vida útil por sus usuarios sin la intención de reutilizarlos. Esto incluye desde grandes electrodomésticos hasta teléfonos móviles, computadoras y circuitos integrados.</p>
+<p>De acuerdo con la Universidad de las Naciones Unidas (UNU) y la iniciativa global <em>Step</em> (Solving the E-waste Problem), un equipo entra en esta categoría en el momento en que se convierte en residuo, abarcando tanto sus subconjuntos como los consumibles que forman parte del producto en el momento del descarte.</p>
+</section>
+
+<section id="caracteristicas">
+<h2>2. Características de la basura electrónica</h2>
+<p>A diferencia de los residuos sólidos urbanos convencionales, los desechos electrónicos poseen propiedades complejas que requieren un manejo diferenciado:</p>
+<ul>
+<li><strong>Composición dual peligrosa/valiosa:</strong> Contienen metales preciosos escasos (oro, plata, cobre, platino) y, al mismo tiempo, sustancias altamente tóxicas (plomo, mercurio, cadmio, bromo y retardantes de llama).</li>
+<li><strong>Crecimiento acelerado:</strong> Es el flujo de residuos domésticos que más rápido crece a nivel mundial debido a la obsolescencia programada y la rápida innovación tecnológica.</li>
+<li><strong>Persistencia ambiental:</strong> Los materiales plásticos y metales pesados no se degradan fácilmente de forma natural, acumulándose en los ecosistemas si no reciben un confinamiento o tratamiento adecuado.</li>
+<li><strong>Complejidad de desensamblaje:</strong> Al ser productos compactos y unidos por adhesivos industriales o soldaduras, su separación manual o mecánica requiere procesos técnicos especializados.</li>
+</ul>
+</section>
+
+<section id="importancia">
+<h2>3. Importancia de reutilizar la basura electrónica</h2>
+<p>La reutilización y el reciclaje sistemático de estos componentes son pilares fundamentales para mitigar la crisis climática y avanzar hacia una economía circular:</p>
+
+<div class="highlight-box">
+<strong>Conservación de Recursos (Minería Urbana):</strong> Obtener metales de los aparatos existentes genera un impacto ambiental drásticamente menor que extraer materias primas vírgenes de la Tierra. Por ejemplo, hay más oro en una tonelada de smartphones que en una tonelada de mineral de oro bruto de una mina.
+</div>
+
+<ul>
+<li><strong>Reducción de la contaminación hídrica y del suelo:</strong> Evita que los lixiviados tóxicos (fluidos cargados de metales pesados) se filtren a los mantos acuíferos subterráneos desde los vertederos comunes.</li>
+<li><strong>Disminución de emisiones de CO₂:</strong> La manufactura de tecnología nueva es intensiva en carbono. Reutilizar chasis, fuentes de poder o cables reduce la demanda de procesamiento industrial primario.</li>
+<li><strong>Seguridad de Datos y Inclusión Digital:</strong> La restauración (refurbishing) de hardware permite reintroducir computadoras funcionales a sectores vulnerables o centros educativos a bajo costo, cerrando la brecha digital.</li>
+</ul>
+</section>
+
+<section id="proceso">
+<h2>4. Proceso paso a paso: Creación de un producto físico reutilizando e-waste</h2>
+<p>A continuación se describe el proceso técnico oficial para la transformación y manufactura de un nuevo producto físico (por ejemplo, <strong>filamento plástico reciclado para impresión 3D</strong> o <strong>nuevas carcasas de dispositivos</strong>) utilizando los polímeros de ingeniería recuperados de la basura electrónica.</p>
+
+<div class="step-list">
+<div class="step-item">
+<span class="step-num">Paso 1</span>
+<strong>Recolección, Clasificación y Desmantelamiento Seguro</strong>
+<p>Los dispositivos se reciben en plantas autorizadas. Se retiran manualmente los elementos de alta peligrosidad (baterías de litio, condensadores y tubos de rayos catódicos). Posteriormente, se separan los componentes metálicos y las tarjetas de circuito de las estructuras plásticas exteriores (ABS, Poliestireno HIPS o Policarbonato).</p>
+</div>
+
+<div class="step-item">
+<span class="step-num">Paso 2</span>
+<strong>Triturado Mecánico Primario</strong>
+<p>Las carcasas plásticas seleccionadas se introducen en una trituradora industrial de cuchillas rotativas. Este proceso reduce el volumen del material original, transformándolo en hojuelas o "pellets" rústicos de entre 5 y 10 milímetros.</p>
+</div>
+
+<div class="step-item">
+<span class="step-num">Paso 3</span>
+<strong>Separación por Densidad y Descontaminación</strong>
+<p>Las hojuelas pasan por tanques de flotación hidrodinámica o separadores electrostáticos. Dado que los plásticos de e-waste tienen diferentes densidades, este paso asegura que solo se conserve un tipo específico de polímero puro, eliminando cualquier residuo restante de etiquetas adhesivas, pintura conductora o polvo metálico.</p>
+</div>
+
+<div class="step-item">
+<span class="step-num">Paso 4</span>
+<strong>Secado y Extrusión (Fusión del Material)</strong>
+<p>El plástico limpio se deshidrata por completo en tolvas industriales. Una vez seco, se alimenta a una máquina extrusora que aplica calor controlado mediante resistencias eléctricas hasta alcanzar el punto de fusión del polímero. El plástico líquido se empuja a través de una boquilla de calibración cilíndrica precisa.</p>
+</div>
+
+<div class="step-item">
+<span class="step-num">Paso 5</span>
+<strong>Enfriamiento, Bobinado y Control de Calidad</strong>
+<p>El filamento continuo que sale de la boquilla pasa inmediatamente por un baño de agua termorregulada para solidificarse con un diámetro uniforme. Sensores láser miden el grosor del filamento antes de ser enrollado en bobinas listas para usarse en impresoras 3D o máquinas de moldeo por inyección, creando así un nuevo producto comercial útil.</p>
+</div>
+</div>
+</section>
+</main>
+
+<footer>
+<p>© 2026 Plataforma de Información Tecnológica y Ambiental. Contenido académico con fines informativos estructurado bajo estándares web profesionales.</p>
+</footer>
+
+</body>
+</html>
